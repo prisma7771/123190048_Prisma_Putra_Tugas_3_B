@@ -61,12 +61,12 @@ class _PageDetailCountriesState extends State<PageDetailCountries> {
   }
 
   Widget _buildItemCountries(String value, String value2) {
-    var text = Container(
+    var text = SizedBox(
         width: MediaQuery.of(context).size.width,
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
-            Text(value, style: const TextStyle(fontSize: 28.0)),
+            Text(value, style: const TextStyle(fontSize: 26.0)),
             Text(" (" + value2 + ")",
                 style: const TextStyle(
                     fontWeight: FontWeight.bold, fontSize: 28.0)),
